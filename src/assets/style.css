@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+:root {
+  
+  /* HEADER ============================= */
+  --header-color: #ecf0f3;
+  --header-font-color: #31344b;
+  --header-button-effect-color1: #ffffff;
+  --header-button-effect-color2: #ceced1;
+  --header-button-background-color: #ecf0f3;
+  --header-button-shadown-color: #b0b0b5;
+  
+  /* BODY CONTENT ======================= */
+  --body-color: #ecf0f3;
+  --body-font-color: #111; /* d9d9d9 */
+
+  /* FOOTER ============================= */
+  --footer-background-color: #ecf0f3; /* #111 */
+  --footer-font-color: #111; /* #d9d9d9 */
+  --footer-social-icon-background-color:  #ceced1; /* #1a1a1a */
+  --footer-social-icon-background-hover-color:  #123b4f;
+  --footer-form-background-color: #ceced1; /* #151515 */
+  --footer-form-background-boder-color: #222222;
+  --footer-send-message-button-color: #123b4f;
+
+  /* GENERAL ============================ */
+  --maritimus-main-color: #123b4f;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a { color: inherit; } 
+
+body {
+  background-color: var(--body-color);
+  color: var(--body-font-color);
+}
+
+.bodyContent {
+  margin: 1% 0;
+}
+
+.sectionContainer {
+  margin: 1rem 1rem;
+  /* align-items: center; */
+  /* display: flex; */
+  /* display: grid; */
+  /* grid-template-rows: 0.25fr 1.75fr; */
+}
+
+.sectionTitle {
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color:var(--primary-maritimus-color);
+  /* background-color: red; */
+}

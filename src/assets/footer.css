@@ -1,0 +1,224 @@
+footer{
+  /* position: fixed; */
+  bottom: 0px;
+  width: 100%;
+  background: var(--footer-background-color);
+}
+
+/* -------------------------------------------------- */
+
+.footer-main-content{
+  display: flex;
+}
+
+.footer-main-content .footer-box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+/* -------------------------------------------------- */
+
+.footer-left .footer-content p{
+  text-align: justify;
+}
+
+.footer-left .footer-content .footer-social{
+  margin: 20px 0 0 0;
+}
+
+.footer-left .footer-content .footer-social a{
+  padding: 0 2px;
+}
+
+.footer-left .footer-content .footer-social a span{
+  height: 40px;
+  width: 40px;
+  background: var(--footer-social-icon-background-color);
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.footer-left .footer-content .footer-social a span:hover{
+  background: var(--footer-social-icon-background-hover-color);
+}
+
+/* -------------------------------------------------- */
+
+.footer-center .footer-content .fas{
+  font-size: 1.4375rem;
+  background: var(--footer-social-icon-background-color);
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer-center .footer-content .fas:hover{
+  background: var(--footer-social-icon-background-hover-color);
+}
+
+.footer-center .footer-content .footer-text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.footer-center .footer-content .footer-phone{
+  margin: 15px 0;
+}
+
+/* -------------------------------------------------- */
+
+.footer-right form .footer-text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  /* color: #656565; */
+}
+
+.footer-right form .footer-msg{
+  margin-top: 10px;
+}
+
+.footer-right form input, .footer-right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: var(--footer-form-background-color);
+  padding-left: 10px;
+  border: 1px solid var(--footer-form-background-boder-color);
+  color: var(--footer-font-color);
+}
+
+.footer-right form input:focus,
+.footer-right form textarea:focus{
+  outline-color: var(--footer-social-icon-background-hover-color);
+}
+
+.footer-right form input{
+  height: 35px;
+}
+
+.footer-right form .footer-btn{
+  margin-top: 10px;
+}
+
+.footer-right form .footer-btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: rgb(17, 0, 255);
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 50%;
+}
+
+.footer-right form .footer-btn button:hover{
+  background: #000;
+}
+
+/* -------------------------------------------------- */
+
+.footer-bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+
+.footer-bottom center span{
+  color: #656565;
+}
+
+.footer-bottom center a{
+  color: var(--maritimus-main-color);
+  text-decoration: none;
+}
+
+.footer-bottom center a:hover{
+  text-decoration: underline;
+}
+
+/* -------------------------------------------------- */
+
+.footer-content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.footer-content1 .footer-text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+
+.footer-content1 .footer-p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+
+/* -------------------------------------------------- */
+
+.footer-box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer-box .footer-content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.footer-box .footer-content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.footer-box .footer-content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: var(--maritimus-main-color);
+  top: -10px;
+}
+
+/* -------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+
+  :root{
+    font-size: 14px;
+    color: blue;
+    background-color: red;
+  }
+
+  footer{
+    /* position: relative; */
+    bottom: 0px;
+  }
+
+  .footer-main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footer-main-content .footer-box{
+    margin: 5px 0;
+  }
+
+}
